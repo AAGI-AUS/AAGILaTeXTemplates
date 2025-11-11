@@ -2,7 +2,7 @@
 
 <!-- Badges -->
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
-![Template: LaTeX/Beamer](https://img.shields.io/badge/Template%3A%20LaTeX/Beamer-305858)
+![Template: LaTeX/Beamer](https://img.shields.io/badge/Template%3A%20LaTeX/Beamer-30685f)
 
 This repository contains LaTeX (and Beamer) templates that AAGI staff can use to
 create AAGI-themed documents and presentations.
