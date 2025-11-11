@@ -10,8 +10,8 @@ create AAGI-themed documents and presentations.
 |<img src="assets/README_graphics/preview_aagireport.jpg" alt="AAGI report jpg" width="200px"/><br>[AAGI Report](/AAGI%20Report)|<img src="assets/README_graphics/preview_aagiinterimreport.jpg" alt="AAGI interim report jpg" width="200px"/><br>[AAGI Interim Report](/AAGI%20Interim%20Report/)|<img src="assets/README_graphics/preview_aagidocument.jpg" alt="AAGI document jpg" width="200px"/><br>[AAGI Document](/AAGI%20Document/)|<img src="assets/README_graphics/preview_aagipresentation.png" alt="AAGI presentation png" width="248px"/><br>[AAGI Presentation](/)|
 |:-:|:-:|:-:|:-:|
 
-Use these templates (together with a suitable TeX environment and compiler) when 
-preparing your AAGI reports, presentations, and other documents.
+Use these templates, together with a suitable TeX environment and compiler, to 
+prepare your AAGI reports, presentations, and other documents.
 
 - **[AAGI Report](/AAGI%20Report)**: An AAGI-themed template for project 
   reports. Use this template for the 'large' (i.e., project conclusion) reports, such 
@@ -40,12 +40,12 @@ under the AAGI Research & Development investment **AAGI-AU-RD-WOP**, with guidan
 provided by the AAGI Strategic Partner leads and feedback from the wider
 community of AAGI researchers and professionals.
 
-### Licence and Logo Rights
+### MIT Licence (for .tex code only), Logo Rights
 
 These document templates have been made public for the strict purposes of transparency
 and ease of access for AAGI staff. 
 
-Please note that the code in the .tex files is released under the open source **[MIT Licence](/LICENSE)**, but this licence does not grant unauthorised use of the 
+Please note that the code in the .tex files is released under the open source **[MIT Licence](/LICENSE)**, but this licence _does not_ grant unauthorised use of the 
 AAGI logo or the Strategic Partner logos. The use of the logo graphics together with
 these templates is restricted to official AAGI work conducted by AAGI personnel.
 
@@ -61,7 +61,7 @@ the logos must not be modified without authorisation.
 
 Feedback on the use of the AAGI document and presentation templates is always
 welcome. If you wish to provide feedback on the templates or any related 
-materials, please use the [GitHub Issue Tracker](https://github.com/AAGI-AUS/AAGIOfficeTemplates/issues) for this repository. 
+materials, please use the [GitHub Issue Tracker](https://github.com/AAGI-AUS/AAGILaTeXTemplates/issues) for this repository. 
 Alternatively, get in touch with one of the AAGI-AU-RD-WOP project leads:
 
 - Curtin University: Prof. Adam Sparks ([@adamhsparks](https://github.com/adamhsparks))
