@@ -7,7 +7,7 @@
 This repository contains LaTeX (and Beamer) templates that AAGI staff can use to
 create AAGI-themed documents and presentations.
 
-|<img src="assets/README_graphics/preview_aagireport.jpg" alt="AAGI report jpg" width="200px"/><br>[AAGI Report](/AAGI%20Report)|<img src="assets/README_graphics/preview_aagiinterimreport.jpg" alt="AAGI interim report jpg" width="200px"/><br>[AAGI Interim Report](/AAGI%20Interim%20Report/)|<img src="assets/README_graphics/preview_aagidocument.jpg" alt="AAGI document jpg" width="200px"/><br>[AAGI Document](/AAGI%20Document/)|<img src="assets/README_graphics/preview_aagipresentation.png" alt="AAGI presentation png" width="248px"/><br>[AAGI Presentation](/)|
+|<img src="assets/README_graphics/preview_aagireport.jpg" alt="AAGI report jpg" width="200px"/><br>[AAGI Report](/AAGI%20Report)|<img src="assets/README_graphics/preview_aagiinterimreport.jpg" alt="AAGI interim report jpg" width="200px"/><br>[AAGI Interim Report](/AAGI%20Interim%20Report/)|<img src="assets/README_graphics/preview_aagidocument.jpg" alt="AAGI document jpg" width="200px"/><br>[AAGI Document](/AAGI%20Document/)|<img src="assets/README_graphics/preview_aagipresentation.png" alt="AAGI presentation png" width="248px"/><br>[AAGI Presentation](/AAGI%20Presentation)|
 |:-:|:-:|:-:|:-:|
 
 Use these templates, together with a suitable TeX environment and compiler, to 
@@ -23,15 +23,57 @@ prepare your AAGI reports, presentations, and other documents.
 - **[AAGI Document](/AAGI%20Document)**: A general AAGI-themed document template.
   Use this template for miscellaneous documents such as guides, overviews, 
   checklists, media releases, memos, and others.
-- **[AAGI Presentation](/)**: AAGI-theming for
+- **[AAGI Presentation](/AAGI%20Presentation)**: AAGI-theming for
   PowerPoint presentation slides. Use this template for presentations showcasing
   your AAGI project work, or when representing the AAGI brand at events.
 
 ## Installation & Usage Instructions
 
-TODO. (include optional install of a full TeX environment via texlive. Other than
-that, mostly plug-and-play: simply copy over a directory and you should have
-everything you need.)
+### Install a TeX distribution (TeXLive recommended)
+
+The AAGI report and presentation templates can be used with any TeX distribution and
+editor environment. For best results, it is recommended that you install a 
+complete TeXLive distribution which will include all of the packages that you may
+ever need when compiling (La)TeX documents. The full TeXLive suite comes out to
+about 7GB or so.
+
+- **Windows 11 or newer**: You can install a full TeXLive installation on Windows 11 
+  (or Windows 10, or newer) by following the _Easy Install_ directions
+  listed on the TeX Users Group website, https://www.tug.org/texlive/windows.html.
+- **Mac OSX**: On Mac OSX (v10.14 or higher), the recommended way to get a full
+  TeXLive distribution is to install the MacTeX package, which can be 
+  installed by following the instructions on the TeX Users Group
+  website at https://www.tug.org/mactex/.
+- **Ubuntu**: Ubuntu 24.04 LTS (or essentially any version of Ubuntu, past and
+  future) lets you easily install the full TeXLive distribution with 
+  the `texlive-full` package:
+  ```{bash}
+  sudo apt install texlive-full
+  ```
+- **Fedora Linux**: In Fedora Linux 43 (as well as many other past/future versions),
+  the easy way to install a full TeXLive distribution is by installing the
+  `texlive-scheme-full` scheme:
+  ```{bash}
+  sudo dnf install texlive-scheme-full
+  ```
+- **Linux**: On other flavours of Linux, you may be able to find a similar
+  'full TeXLive' package in your package manager. However if not, the _Quick Install_
+  instructions provided by the TeX Users Group will work on any Linux 
+  (or UNIX) flavour, and can be found at https://www.tug.org/texlive/quickinstall.html.
+
+### Download the template directories
+
+Download this template repository to your local computer. You can do this by 
+downloading and unzipping the repository using the _Code_ button in the top right 
+as shown:<br><img src="assets/README_graphics/install_download.png" alt="Download the zipped repository file by clicking the Code button png" width="426px"/>
+
+Alternatively, you can `git clone` this repository:
+```{bash}
+git clone https://github.com/AAGI-AUS/AAGILaTeXTemplates.git
+```
+
+In either case, this will download all of the template directories, which you can
+start using straight away with your preferred TeX editor.
 
 ## Acknowledgements & Notices
 
