@@ -24,8 +24,9 @@ prepare your AAGI reports, presentations, and other documents.
   Use this template for miscellaneous documents such as guides, overviews, 
   checklists, media releases, memos, and others.
 - **[AAGI Presentation](/AAGI%20Presentation)**: AAGI-theming for
-  PowerPoint presentation slides. Use this template for presentations showcasing
-  your AAGI project work, or when representing the AAGI brand at events.
+  presentation slides (made using Beamer). Use this template for 
+  presentations showcasing your AAGI project work, or when representing the AAGI 
+  brand at events.
 
 ## Installation & Usage Instructions
 
