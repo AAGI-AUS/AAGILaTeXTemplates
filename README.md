@@ -38,20 +38,20 @@ complete TeXLive distribution which will include all of the packages that you ma
 ever need when compiling (La)TeX documents. The full TeXLive suite comes out to
 about 7GB or so.
 
-- **Windows 11 or newer**: You can install a full TeXLive installation on Windows 11 
-  (or Windows 10, or newer) by following the _Easy Install_ directions
+- **Windows 10 or newer**: You can install a full TeXLive installation on Windows 10 
+  (or Windows 11, or newer) by following the _Easy Install_ directions
   listed on the TeX Users Group website, https://www.tug.org/texlive/windows.html.
 - **Mac OSX**: On Mac OSX (v10.14 or higher), the recommended way to get a full
   TeXLive distribution is to install the MacTeX package, which can be 
   installed by following the instructions on the TeX Users Group
   website at https://www.tug.org/mactex/.
-- **Ubuntu**: Ubuntu 24.04 LTS (or essentially any version of Ubuntu, past and
+- **Ubuntu**: Ubuntu 26.04 LTS (or essentially any version of Ubuntu, past and
   future) lets you easily install the full TeXLive distribution with 
   the `texlive-full` package:
   ```{bash}
   sudo apt install texlive-full
   ```
-- **Fedora Linux**: In Fedora Linux 43 (as well as many other past/future versions),
+- **Fedora Linux**: In Fedora Linux 44 (as well as many other past/future versions),
   the easy way to install a full TeXLive distribution is by installing the
   `texlive-scheme-full` scheme:
   ```{bash}
