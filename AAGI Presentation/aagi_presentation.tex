@@ -1,5 +1,5 @@
 % LaTeX/Beamer template for AAGI presentations
-% Date last modified: 11/11/2025
+% Date last modified: 14/08/2026
 
 \documentclass[aspectratio=169]{beamer}
 
@@ -73,8 +73,10 @@
   
   \makebox[\linewidth]{%
     \includegraphics[width=1.0\paperwidth]{assets/AAGI_pres_banner.jpg}}
-  \makebox[\linewidth]{%    
-    \includegraphics[width=1.0\paperwidth]{assets/partners.jpg}}}
+  \makebox[\linewidth]{%
+    % Use the Project partner variant to include a project partner
+    %\includegraphics[clip, trim=0 4pt 0 2pt, width=\paperwidth]{assets/Project_partner.pdf}}}
+    \includegraphics[clip, trim=0 4pt 0 2pt, width=1.0\paperwidth]{assets/Partners.pdf}}}
 
 % Tweak: No 'Figure: ' prefix in figure captions
 \setbeamertemplate{caption}{\raggedright\insertcaption\par}
